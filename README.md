@@ -14,7 +14,7 @@ Site criado para calcular a média dos cursos EAD.
 ![](https://jefersonwebdev.github.io/link-da-bio/assets/img/link-da-bio-mobile)
 ## Detalhes do projeto
 
-![](https://jefersonwebdev.github.io/calculadorademedia/calculadora-media-imagem.png)
+![](https://jefersonwebdev.github.io/calculadorademedia/img/calculadora-media-imagem.png)
 # Responsivo
 Se adapta ao tamanho da tela do dispositivo em que está sendo visualizado, como um celular, tablet ou desktop
 <!-- Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc... -->
