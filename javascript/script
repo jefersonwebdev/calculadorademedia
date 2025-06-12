@@ -6,11 +6,7 @@ function calcularMediaDisciplinar() {
     let resultado = `Média Disciplinar (MD): ${md.toFixed(2)}`;
     const elementoResultadoMD = document.getElementById('resultadoMD');
 
-    if (md < 7) {
-        resultado += "<br>Você está de exame.";
-        elementoResultadoMD.style.backgroundColor = "#FFC700";
-        elementoResultadoMD.style.color = "white";
-    } else {
+    if (md >= 6.7) {       
         resultado += "<br>Parabéns você foi Aprovado.";
         elementoResultadoMD.style.backgroundColor = "#50CD89";
         elementoResultadoMD.style.color = "white";
@@ -21,6 +17,10 @@ function calcularMediaDisciplinar() {
             spread: 70,
             origin: { y: 0.6 }
         });
+    } else {
+        resultado += "<br>Você está de exame.";
+        elementoResultadoMD.style.backgroundColor = "#FFC700";
+        elementoResultadoMD.style.color = "white";
     }
     elementoResultadoMD.innerHTML = resultado;
 }
@@ -32,7 +32,7 @@ function calcularMediaFinal() {
     let resultado = `Média Final (MF): ${mf.toFixed(2)}`;
     const elementoResultadoMF = document.getElementById('resultadoMF');
 
-    if (mf >= 5) {
+    if (mf >= 4.75) {
         resultado += "<br>Parabéns você foi Aprovado.";
         elementoResultadoMF.style.backgroundColor = "#50CD89";
         elementoResultadoMF.style.color = "white";
